@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30cbea29-179c-4e6f-b552-4648766d945d" name="Changes" comment="" />
+    <list default="true" id="30cbea29-179c-4e6f-b552-4648766d945d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2C7YjZCQ7Pfa1mFpotCPA8YwGEY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,9 +33,25 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/nablasol/IdeaProjects/Lab 3 Problem Solution"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="skyscraperConstruction.sort" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Driver" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="MNCTransactions.driver.BSTDriver" />
+      <module name="Data Structure Assignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,9 +60,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658155231295</updated>
-      <workItem from="1658155235752" duration="2000" />
+      <workItem from="1658155235752" duration="4451000" />
+      <workItem from="1658327234672" duration="3113000" />
+      <workItem from="1658334946741" duration="3108000" />
+      <workItem from="1658381917426" duration="1750000" />
+      <workItem from="1658411568995" duration="1421000" />
+      <workItem from="1658499453792" duration="12040000" />
+      <workItem from="1658560990383" duration="21473000" />
+      <workItem from="1658637850662" duration="2640000" />
+      <workItem from="1658741180937" duration="49000" />
+      <workItem from="1658757067502" duration="3058000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
