@@ -6,19 +6,23 @@ public class OrderOfConstruction {
     public static void FindOrderOfConstruction(List floors,List sortedFloors){
         int g_i = FindLargestFloor.findLargest(floors);
         int k =0;
-        int NoOfFloors = floors.size();
-        for(int i=0; i<NoOfFloors; i++){
+
+        for(int i=0; i<floors.size(); i++){
             System.out.println("Day: " + (i+1));
             if(i>=g_i){
-                if(sortedFloors.get(k) == floors.get(g_i)){
+                if(sortedFloors.get(k) == floors.get(i)){
                     System.out.println(sortedFloors.get(k));
                     k++;
-                    for(int d=0; d<=i;d++){
-                        if(sortedFloors.get(k) == floors.get(d)){
-                            System.out.println(sortedFloors.get(k));
-                            k++;
-                            d=0;
+                    try{
+                        for(int d=0; d<=i;d++){
+                            if (sortedFloors.get(k) == floors.get(d)) {
+                                System.out.println(sortedFloors.get(k));
+                                k++;
+                                d = -1;
+                            }
                         }
+                    }catch (IndexOutOfBoundsException e){
+                        continue;
                     }
                 }
                 else{

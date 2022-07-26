@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30cbea29-179c-4e6f-b552-4648766d945d" name="Changes" comment="">
+    <list default="true" id="30cbea29-179c-4e6f-b552-4648766d945d" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skyscraperConstruction/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/skyscraperConstruction/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skyscraperConstruction/floors/OrderOfConstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/skyscraperConstruction/floors/OrderOfConstruction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/nablasol/IdeaProjects/Lab 3 Problem Solution"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nablasol/IdeaProjects/Lab 3 Problem Solution&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="skyscraperConstruction.sort" />
@@ -45,7 +47,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Driver" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="MNCTransactions.driver.BSTDriver" />
+      <option name="MAIN_CLASS_NAME" value="skyscraperConstruction.driver.Driver" />
       <module name="Data Structure Assignment" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,8 +71,17 @@
       <workItem from="1658560990383" duration="21473000" />
       <workItem from="1658637850662" duration="2640000" />
       <workItem from="1658741180937" duration="49000" />
-      <workItem from="1658757067502" duration="3058000" />
+      <workItem from="1658757067502" duration="3880000" />
+      <workItem from="1658846458940" duration="5850000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1658760209782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658760209782</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +97,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Data_Structure_Assignment$Driver.ic" NAME="Driver Coverage Results" MODIFIED="1658851212880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
