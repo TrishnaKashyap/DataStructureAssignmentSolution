@@ -3,38 +3,37 @@ package skyscraperConstruction.floors;
 import java.util.List;
 
 public class OrderOfConstruction {
-    public static void findOrderOfConstruction(List floors,List sortedFloors){
-        int g_i = FindLargestFloor.findLargest(floors);
-        int k =0;
+    public static void findOrderOfConstruction(List<Integer> floors,List<Integer> sortedFloors){
+        int indexLargest = FindLargestFloor.findLargest(floors);
+        int indexSortedFloors =0;
 
-        for(int i=0; i<floors.size(); i++){
-            System.out.println("Day: " + (i+1));
-            if(i>=g_i){
-                if(sortedFloors.get(k) == floors.get(i)){
-                    System.out.println(sortedFloors.get(k));
-                    k++;
-                    try{
-                        for(int d=0; d<=i;d++){
-                            if (sortedFloors.get(k) == floors.get(d)) {
-                                System.out.println(sortedFloors.get(k));
-                                k++;
-                                d = -1;
-                            }
+        for(int indexFloors=0; indexFloors<floors.size(); indexFloors++){
+
+            System.out.println("Day: " + (indexFloors+1));
+
+            //check if indexFloors is greater than or equal to largest index
+            if(indexFloors>=indexLargest){
+
+                //check if value of sortedFloors at given index is equal to value of floors at indexFloors
+                if(sortedFloors.get(indexSortedFloors).equals(floors.get(indexFloors))){
+                    System.out.println(sortedFloors.get(indexSortedFloors));
+                    indexSortedFloors++;
+
+                    //check for all the values preceding largest floor and print the floors that can be assembled for the day
+                    for(int d=0; d<indexFloors;d++){
+                        if ( indexSortedFloors<sortedFloors.size() && sortedFloors.get(indexSortedFloors).equals(floors.get(d))) {
+                            System.out.println(sortedFloors.get(indexSortedFloors));
+                            indexSortedFloors++;
+                            d = -1;
                         }
-                    }catch (IndexOutOfBoundsException e){
-                        continue;
                     }
                 }
                 else{
-                    for(int j=0; j<= i; j++){
-                        try{
-                            if(floors.get(j) == sortedFloors.get(k)){
-                                System.out.println(sortedFloors.get(k));
-                                j=0;
-                                k++;
-                            }
-                        } catch (IndexOutOfBoundsException e){
-                            break;
+                    for(int j=0; j<= indexFloors; j++){
+                        if( indexSortedFloors<sortedFloors.size() && floors.get(j).equals(sortedFloors.get(indexSortedFloors))){
+                            System.out.println(sortedFloors.get(indexSortedFloors));
+                            j=0;
+                            indexSortedFloors++;
                         }
                     }
                 }
