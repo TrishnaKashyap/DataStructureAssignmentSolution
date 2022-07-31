@@ -58,7 +58,7 @@ public class Driver {
         Collections.sort(sortedFloors);
         Collections.reverse(sortedFloors);
         System.out.println("The order of construction is as follows: ");
-        OrderOfConstruction.FindOrderOfConstruction(floors, sortedFloors);
+        OrderOfConstruction.findOrderOfConstruction(floors, sortedFloors);
         in.close();
     }
 }

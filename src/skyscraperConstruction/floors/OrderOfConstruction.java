@@ -3,7 +3,7 @@ package skyscraperConstruction.floors;
 import java.util.List;
 
 public class OrderOfConstruction {
-    public static void FindOrderOfConstruction(List floors,List sortedFloors){
+    public static void findOrderOfConstruction(List floors,List sortedFloors){
         int g_i = FindLargestFloor.findLargest(floors);
         int k =0;
 
