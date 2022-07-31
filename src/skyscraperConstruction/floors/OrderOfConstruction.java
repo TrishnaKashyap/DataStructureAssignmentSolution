@@ -40,7 +40,7 @@ public class OrderOfConstruction {
                 }
             }
             else{
-                System.out.println();
+                System.out.println("No construction for the day.");
             }
         }
     }

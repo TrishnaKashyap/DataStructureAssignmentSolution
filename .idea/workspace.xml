@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30cbea29-179c-4e6f-b552-4648766d945d" name="Changes" comment="Initial commit">
+    <list default="true" id="30cbea29-179c-4e6f-b552-4648766d945d" name="Changes" comment="Final commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/skyscraperConstruction/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/skyscraperConstruction/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skyscraperConstruction/driver/DriverArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skyscraperConstruction/floors/FindLargestFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/skyscraperConstruction/floors/FindLargestFloor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/skyscraperConstruction/floors/OrderOfConstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/skyscraperConstruction/floors/OrderOfConstruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skyscraperConstruction/sort/SortFloors.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,8 @@
       <workItem from="1658637850662" duration="2640000" />
       <workItem from="1658741180937" duration="49000" />
       <workItem from="1658757067502" duration="3880000" />
-      <workItem from="1658846458940" duration="5850000" />
+      <workItem from="1658846458940" duration="5890000" />
+      <workItem from="1659272075544" duration="3610000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1658760209782</created>
@@ -81,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658760209782</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second commit">
+      <created>1658852432956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658852432956</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +111,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Second commit" />
+    <MESSAGE value="Final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

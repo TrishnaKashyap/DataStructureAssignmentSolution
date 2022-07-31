@@ -10,7 +10,7 @@ public class FindLargestFloor {
             for(int j=0; j<floors.size(); j++){
                 if((int) floors.get(i) > greatest){
                     greatest = (int) floors.get(i);
-                    g_index=j;
+                    g_index=i;
                 }
             }
         }
